@@ -3,3 +3,45 @@
 */.classpath
 */.project
 
+#java
+*.class
+
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+#maven ignore
+target/
+build/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#Intellij idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# VS Code #
+.vscode/
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*logs/
+*IDS*/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
